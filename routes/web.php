@@ -17,7 +17,6 @@ use Illuminate\Http\Request;
 */
 
 $router->get('/', "PlaceController@start");
-
 $router->get('/cities', "CityController@getCities");
 $router->get('/cities/filter', "CityController@getCitiesParams");
 
