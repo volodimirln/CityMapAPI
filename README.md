@@ -1,26 +1,86 @@
-# Lumen PHP Framework
+# CityMapAPI 
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+👩‍💻 API разработанное для телеграм-бота, которые предоставляет данные о досуговых и культурных заведениях городов края
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Проблематика
+С каждым годом в городах становится все больше культурных и досуговых заведений, а также в связи с ростом пользователей телеграмма среди городского среднего класса, который предпочитает проводить свободное время в досуговых и культурных заведениях. Поэтому, возникает потребность в создании единой базы данных с градацией по регионам, городам и районам и с привязкой к ним заведений.
 
-> **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
+## Задачи
 
-## Official Documentation
+♨️ разработка модуля API 
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+ 📂 разработка и реализация логической модели данных
 
-## Contributing
+ 🔗 создание физической модели данных данных в базе данных
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+🧪 сбор тестовых данных
 
-## Security Vulnerabilities
+🏃 разработка дополнительного функционала
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Объекты
 
-## License
+👨 город
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+💼 район
+
+⚖️ заведение
+
+🔗 пользователь телеграм-бота
+
+
+## Функционал
+
+Основной функционал:
+- предоставление списка грации городов и районов в JSON;
+- предоставление списка заведений в JSON;
+- использование принципа CodeFirst и инициализация базы данных на сервере БД.
+
+и другие функции
+
+## Особенности
+
+Система может работать в локальной сети или на удаленном сервере. Также, к модулю CityMapAPI могут подключаться сторонние проекты на различных платформах благодаря программному интерфейсу.
+
+## Технологический стек
+
+Сервер: PHP 8/Lumen
+
+Сервер базы данных: MySQL Data Base 
+
+Клиент: отсутствует 
+
+API разработано с подходом Code First
+
+API разработано по паттерну MVC
+
+## Тесты
+
+--
+
+## Автор
+- [@volodimirln GitHub](https://github.com/volodimirln)
+- [@volodimirln Vk](https://vk.com/volodimirln)
+- [@volodimirln Tg](https://t.me/volodimirln)
+
+## Лицензия
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Демонстрация
+
+На данный момент телеграмм бот не запущен 
+
+## Деплой
+
+Развертывание происходит только со стороны сервера API и базы данных MySQL DataBase на одном сервере либо на разных
+
+## Приложение
+
+Подробное описание проекта представлено в личном телеграм канале
+
+Разработано в рамках проекта на Хакатон
+
+## Значки
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
